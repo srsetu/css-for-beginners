@@ -1,0 +1,15 @@
+/* p ~ h1 {
+    color: red;
+} */
+
+/* .myP + h1 {
+    color: red;
+} */
+
+/* .baba > h1 {
+    color: red;
+} */
+
+.baba h1 {
+    color: red;
+}
