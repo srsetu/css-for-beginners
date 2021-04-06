@@ -1,0 +1,27 @@
+/* 0, 0, 1, 0 */
+.para {
+    color: black;
+}
+
+/*0, 0, 1, 2*/
+div > p.para {
+    color: red;
+}
+
+/*0, 1, 0, 0*/
+#heading {
+    color: purple;
+}
+
+/*0, 0, 0, 1*/
+h1 {
+    color: cyan;
+}
+/*0, 0, 1, 0*/
+.hello {
+    color: yellow;
+}
+/*0, 0, 0, 6*/
+div > div > div > div > div > p {
+    color: red;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: GistLight;
+  src: url(./fonts/GistLight.otf);
+}
+
+h1 {
+  font-family: GistLight;
+}
+
+p {
+  font-family: "Redressed", cursive;
+}

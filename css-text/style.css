@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  /* direction: rtl;
+  unicode-bidi: bidi-override; */
+}
+
+p {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #c0392b;
+  text-align: left;
+  text-indent: 30px;
+  line-height: 150%;
+  text-shadow: -10px -10px 10px #28c55d;
+}
