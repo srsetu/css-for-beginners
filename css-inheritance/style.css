@@ -1,0 +1,12 @@
+* {
+    color: orange;
+}
+body {
+    color: red;
+}
+div {
+    color: green;
+}
+button {
+    color: inherit;
+}
