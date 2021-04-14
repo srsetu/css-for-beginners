@@ -1,0 +1,36 @@
+/*
+We will learn:
+0. Document Flow
+1. Absolute
+2. Fixed
+3. Relative
+4. Sticky
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background: gray;
+    padding: 50px;
+    height: 2000px;
+}
+.parent {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background: ivory;
+}
+
+.child-1 {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.child-2 {
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+}

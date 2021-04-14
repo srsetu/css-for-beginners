@@ -10,6 +10,7 @@ CSS3 For beginners is a free course by [JS Bangladesh][1]. In this repository yo
 -   [CSS Specificity Explained in Banla][7]
 -   [Understanding CSS Inheritance][8]
 -   [CSS Box Model Explained in Bangla][9]
+-   [CSS Position Explained in 15 Minutes][10]
 
 [1]: https://youtube.com/jsbangladesh 'YouTube Channel Link'
 [2]: https://youtu.be/gDZYIjNPjI8 'Introduction to CSS3'
@@ -20,3 +21,4 @@ CSS3 For beginners is a free course by [JS Bangladesh][1]. In this repository yo
 [7]: https://youtu.be/Q-nHDnncBjo 'CSS Specificity Explained in Bangla'
 [8]: https://youtu.be/R1yU02fpFcQ 'Understanding CSS Inheritance'
 [9]: https://youtu.be/hkDQlV6ROYU 'CSS Box Model Explained in Bangla'
+[10]: https://youtu.be/ROvf_S2klJs 'CSS Position Explained in 15 Minutes'
