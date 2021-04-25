@@ -1,0 +1,73 @@
+a.jsbd {
+    text-decoration: none;
+    background-color: orange;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+a.btn-success {
+    background-color: rgb(112, 204, 112);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s all;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+a.btn-success:hover {
+    background-color: rgb(49, 104, 49);
+}
+
+.danger {
+    padding: 10px 15px;
+    border: 1px solid red;
+    text-decoration: none;
+    color: red;
+    transition: 0.5s all;
+}
+
+.danger:hover {
+    cursor: wait;
+    background-color: red;
+    color: #fff;
+}
+
+/* 
+a:link
+a:active
+a:hover
+a:visited
+*/
+
+.button {
+    background-image: linear-gradient(to right, #7f00ff, #e100ff);
+    padding: 10px 45px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-top: 100px;
+    color: #fff;
+    border-radius: 35px;
+    text-decoration: none;
+    transition: 0.5s all;
+    position: relative;
+    z-index: 1;
+}
+.button::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to left, #7f00ff, #e100ff);
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    border-radius: 35px;
+}
+.button:hover::before {
+    opacity: 1;
+}
