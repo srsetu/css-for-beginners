@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Unit</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section>
+            <p>Top Section</p>
+        </section>
+        <main>
+            <div class="main">
+                <p class="main__paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Saepe sapiente enim ullam laboriosam doloremque nesciunt est
+                    delectus, quia ducimus omnis neque molestiae cum explicabo
+                    eum aliquam reiciendis maxime ut et? <span>Like Me</span>
+                </p>
+                <ul class="main__list">
+                    <!--16-->
+                    <li>Item One</li>
+                    <!--32-->
+                    <li>Item Two</li>
+                    <li>Item Three <span>Like Me</span></li>
+                    <li>
+                        <!--32-->
+                        <ul class="main__list--two">
+                            <li>Item One</li>
+                            <!--64-->
+                            <li>Item Two</li>
+                            <li>Item Three<span>Like Me</span></li>
+                            <li>
+                                <ol class="main__list--ordered">
+                                    <li>One</li>
+                                    <!--128-->
+                                    <li>Two</li>
+                                    <li>Three<span>Like Me</span></li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <div class="percentage">
+            <div class="parcentage__inner">Inner</div>
+        </div>
+    </body>
+</html>

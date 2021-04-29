@@ -1,0 +1,49 @@
+/*
+Absolute Unit: px, mm, pt, pc, in, Q
+Relative Unit: em, rem, vh, vw, %
+*/
+/* main {
+    font-size: 20px;
+}
+.main {
+    font-size: 24px;
+} */
+.main {
+    font-size: 45px;
+}
+.main__paragraph {
+    font-size: 50%;
+}
+
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+.main__list {
+    font-size: 16px;
+}
+
+.main__list li {
+    font-size: 2em;
+}
+section {
+    background: orchid;
+    height: 50vh;
+    width: 30vw;
+}
+.percentage {
+    width: 300px;
+    height: 350px;
+    background: palegreen;
+}
+.parcentage__inner {
+    background: purple;
+    width: 50%;
+    height: 150px;
+}
+span {
+    background-color: purple;
+    color: #fff;
+    font-size: 1em;
+}
