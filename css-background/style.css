@@ -1,0 +1,44 @@
+/* 
+background-image
+background-position
+background-size
+background-repeat
+background-attachment
+background-origin
+background-clip
+background-color
+*/
+
+div {
+    padding: 50px;
+    height: 600px;
+    background-image: repeating-linear-gradient(
+            135deg,
+            rgb(0, 0, 0) 0px,
+            rgb(0, 0, 0) 10px,
+            transparent 10px,
+            transparent 11px
+        ),
+        repeating-linear-gradient(
+            22.5deg,
+            rgb(0, 0, 0) 0px,
+            rgb(0, 0, 0) 10px,
+            transparent 10px,
+            transparent 11px
+        ),
+        linear-gradient(
+            90deg,
+            hsl(194, 74%, 56%),
+            hsl(266, 74%, 56%),
+            hsl(338, 74%, 56%),
+            hsl(50, 74%, 56%),
+            hsl(122, 74%, 56%)
+        );
+    border: 5px dashed black;
+    /* background-image: url(https://image.shutterstock.com/image-photo/cat-medical-mask-protective-antiviral-260nw-1684423789.jpg),
+        url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg); */
+    /* background-repeat: no-repeat, repeat-y; */
+    background-attachment: scroll;
+    /* background-clip: content-box; */
+    background-origin: border-box, content-box;
+}
